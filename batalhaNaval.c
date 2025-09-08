@@ -12,8 +12,8 @@ int main() {
 
     // Definição do navio horizontal 
 
-    int x_horizontal = 5; // linha
+   int x_horizontal = 5; // linha
     int y_horizontal = 6; // coluna inicial
     int tamanho_horizontal = 4;
-    
+
 
