@@ -25,6 +25,15 @@ int main() {
         printf("Coordenada: (%d, %d)\n", x_vertical, y_vertical + i);
     }
 
+     // Posiciona e mostra o navio horizontal
+    printf("\nNavio Horizontal (tamanho %d):\n", tamanho_horizontal);
+    for (int i = 0; i < tamanho_horizontal; i++) {
+        tabuleiro[x_horizontal][y_horizontal + i] = 1;
+        printf("Coordenada: (%d, %d)\n", y_horizontal + i, x_horizontal);
+    }
+
+    return 0;
+}
 
 
 
